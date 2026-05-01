@@ -1,3 +1,4 @@
+import SafeAgentPP.Guardrails.Labels
 import SafeAgentPP.Guardrails.Actions
 import SafeAgentPP.Guardrails.Policy
 import SafeAgentPP.MultiAgent.Agent

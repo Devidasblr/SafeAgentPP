@@ -1,4 +1,4 @@
-inductive Label
-| Public
-| Secret
-deriving Repr, DecidableEq
+inductive Label where
+  | Public
+  | Secret
+deriving DecidableEq, Repr

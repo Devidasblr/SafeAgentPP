@@ -3,7 +3,7 @@ import SafeAgentPP.Guardrails.Labels
 structure Data where
   value : String
   label : Label
-deriving Repr   -- ONLY Repr (no ToString)
+deriving Repr
 
 inductive Action
 | readSecret : Action
