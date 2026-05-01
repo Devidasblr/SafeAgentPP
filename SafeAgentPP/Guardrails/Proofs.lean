@@ -1,3 +1,8 @@
+import SafeAgentPP.Guardrails.Actions
+import SafeAgentPP.Guardrails.Policy
+import SafeAgentPP.MultiAgent.Agent
+import SafeAgentPP.MultiAgent.Interaction
+
 -- Stronger guarantee: secrets never reach public agents
 theorem no_secret_to_public_agent
   (d : Data) (a : Agent) :
