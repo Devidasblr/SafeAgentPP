@@ -1,0 +1,10 @@
+name = "SafeAgentPP"
+version = "0.1.0"
+defaultTargets = ["SafeAgentPP"]   # ✅ FIX HERE
+
+[[lean_lib]]
+name = "SafeAgentPP"
+
+# [[lean_exe]]                     # ❌ COMMENT THIS BLOCK
+# name = "safeagentpp"
+# root = "Main"
